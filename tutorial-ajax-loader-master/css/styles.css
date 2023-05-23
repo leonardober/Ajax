@@ -1,0 +1,24 @@
+/*con alt+z justifica*/
+body {
+  margin: 0;
+}
+#loading-screen { /* #identificador id del div*/
+  /*.nombre de la clase{}*/
+  /* etiqueta se coloca la etiqueta  {}*/
+  background-color: rgba(25,25,25,0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;      /*posiciona la imagen delante del texto*/
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+}
+#loading-screen img {  /* #etiqueta de imagen*/
+  width: 100px;
+  height: 100px;
+  position: relative; /* la imagen se puede proyectar ubicacion donde estemos*/
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+}
